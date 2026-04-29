@@ -1,56 +1,35 @@
-# AlgoVisualizerUi
+# 🎨 AlgoVisual-UI (Frontend)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
+The interactive user interface for the Algorithm Visualizer, built with **Angular 18** and **Bootstrap**. 
 
-## Development server
+---
 
-To start a local development server, run:
+## 🔗 Full-Stack Ecosystem
+- **Backend Repository:** [https://github.com/NitishMangalam/algo-visual-engine-backend](https://github.com/NitishMangalam/algo-visual-engine-backend)
+- **Monitoring Stack:** Integrated via Docker (Prometheus/Grafana).
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Key Features
+- **Real-time Autocomplete:** Connected to a Trie-based Spring Boot service for optimized $O(L)$ search.
+- **Interactive Graphs:** Visualizes Dijkstra's algorithm results for shortest path calculations.
+- **Dynamic Optimization:** UI implementation for solving the 0/1 Knapsack problem.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠 Tech Stack
+- **Framework:** Angular 18
+- **Styling:** Bootstrap 5 / CSS3
+- **State Management:** RxJS Observables
+- **API Communication:** HttpClient for RESTful service integration
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
+## 🏗 Setup & Installation
+1.  **Clone the repo:** `git clone https://github.com/NitishMangalam/algo-visual-engine-frontend.git`
+2.  **Install dependencies:** `npm install`
+3.  **Run the App:** `ng serve`
+4.  **Backend Connection:** Ensure the Spring Boot backend is running on `http://localhost:8080`.
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
